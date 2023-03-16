@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/history_item_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="left"
+    android:gravity="left"
+    >
+        <TextView
+            android:id="@+id/cal_express_label"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill_horizontal|fill_vertical"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textSize="25dp"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/output_label"
+            android:layout_gravity="fill_horizontal|fill_vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:text="0"
+            />
+</LinearLayout>
